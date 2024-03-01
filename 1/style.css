@@ -1,0 +1,57 @@
+/*div {
+background-color: yellow;
+background-image: url(pexels-luis-gomes-546819.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center ;
+background-attachment: scroll;
+background: red url(pexels-luis-gomes-546819.jpg) no-repeat fixed center;
+height: 1000px;
+width: 1000px;
+}
+h1{
+    color: rebeccapurple;
+}
+div{
+    display: flex;
+    flex-direction: row-reverse column;
+    justify-content:  space-around space-between flex-end ;
+   
+}
+.divcvv{
+    background-color: blue;
+    margin: 30px;
+    padding: 20px;
+    width: 200px;
+    height: 250px;
+    font-size: 100px;
+}
+*/
+section{
+display: flex;
+justify-content: space-around ;
+
+}
+.divcvv{
+    color: #222222;
+width: 250px;
+height: 300px;
+border: 10px solid;
+} 
+section .divcvv h1{
+    color: aqua;
+    text-align: center;
+}
+section .divcvv a{
+    text-decoration: none;
+    font-size: 25px;
+
+}
+section .divcvv a button{
+background-color: blue;
+padding: 20px  ;
+}
+section .divcvv a button  :hover
+{
+    background-color: red;
+}
